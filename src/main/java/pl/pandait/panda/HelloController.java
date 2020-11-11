@@ -6,17 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
-<<<<<<< HEAD
-public class HelloController{
-    @GetMapping("/greeting")
-    public String greeting(@RequestParam(name="name",
-        required=false, defaultValue="World")
-        String name, Model model){
-        model.addAttribute("name", name);
-        return"greeting_template";
-    }
-}
-=======
 public class HelloController {
 
     @GetMapping("/greeting")
@@ -27,4 +16,3 @@ public class HelloController {
 }
 
 
->>>>>>> ddd1fdedc4d651d724c8963607ac8c87ae596b22
