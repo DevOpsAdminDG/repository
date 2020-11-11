@@ -14,6 +14,7 @@
   <version>0.0.2-SNAPSHOT</version>
   <name>panda</name>
   <description>Demo project for Spring Boot</description>
+<<<<<<< HEAD
   <distributionManagement>
     <repository>
       <id>artifactory</id>
@@ -26,6 +27,13 @@
       <url>http://192.168.44.44:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
   </distributionManagement>
+=======
+
+  <properties>
+    <java.version>1.8</java.version>
+  </properties>
+
+>>>>>>> ddd1fdedc4d651d724c8963607ac8c87ae596b22
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -35,12 +43,20 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> ddd1fdedc4d651d724c8963607ac8c87ae596b22
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> ddd1fdedc4d651d724c8963607ac8c87ae596b22
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
@@ -52,12 +68,17 @@
         </exclusion>
       </exclusions>
     </dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> ddd1fdedc4d651d724c8963607ac8c87ae596b22
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>3.141.59</version>
     </dependency>
   </dependencies>
+<<<<<<< HEAD
   <build>
     <plugins>
       <plugin>
@@ -185,3 +206,8 @@
     </profile>
   </profiles>
 </project>
+=======
+
+</project>
+
+>>>>>>> ddd1fdedc4d651d724c8963607ac8c87ae596b22
