@@ -35,7 +35,7 @@ public class PandaApplicationSeleniumTest {
         driver.get(String.format("http://jenkins:%d/", port));
 
         //Czekamy 2 sekundy
-        Thread.sleep(2000);
+        Thread.sleep(30000);
     }
 
     @Test
